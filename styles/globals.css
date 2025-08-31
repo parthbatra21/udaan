@@ -34,4 +34,20 @@
   .nav-link:hover::after {
     @apply w-full;
   }
+  
+  .sidebar-link {
+    @apply flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-300 hover:text-white hover:bg-gray-800 transition-all duration-200;
+  }
+  
+  .sidebar-link:hover svg {
+    @apply text-primary-400;
+  }
+  
+  .nav-icon-link {
+    @apply relative flex items-center justify-center transition-all duration-200;
+  }
+  
+  .nav-icon-link:hover {
+    @apply transform scale-110;
+  }
 }
