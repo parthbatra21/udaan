@@ -9,18 +9,18 @@ export default function Navbar() {
             <Link href="/dashboard" className="nav-link text-lg font-semibold">
               Dashboard
             </Link>
-            <Link href="/dashboard/timetable" className="nav-link">
+            <Link href="/timetable" className="nav-link">
               Timetable
             </Link>
-            <Link href="/dashboard/students" className="nav-link">
+            <Link href="/students" className="nav-link">
               Students
             </Link>
-            <Link href="/dashboard/viva" className="nav-link">
+            <Link href="/viva" className="nav-link">
               Viva
             </Link>
           </div>
           <div className="flex items-center space-x-4">
-            <Link href="/dashboard/profile" className="w-8 h-8 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200 cursor-pointer">
+            <Link href="/profile" className="w-8 h-8 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200 cursor-pointer">
               <span className="text-white text-sm font-bold">U</span>
             </Link>
           </div>
